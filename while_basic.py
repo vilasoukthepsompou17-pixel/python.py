@@ -1,21 +1,21 @@
-x = 0
+#while_basic.py
+
+x = 1
+l = 11
 while x < 10:
-    print(x)
-    x += 1
-    for i in range(1, 10):
-        for j in range(1, i + 1):
-            print(j, end=" ")
-        print()
-
-
-
-x = 9
-
-while x > 0:
     y = 1
     while y <= x:
-        print(y, end=" ")
-        y += 1
+        print(y,end=" ")
+        y+=1
     print()
-    x -= 1
-    
+    x +=1
+print()
+a = 10
+while a >= 1:
+    b = 10
+    while b >= l - a:
+        #
+        print(b,end=" ")
+        b -=1
+    print()
+    a -= 1
