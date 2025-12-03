@@ -1,0 +1,27 @@
+day = 1
+
+match day:
+    case 1:
+        print("ວັນ ອາທີດ")
+    case 2:
+        print("ວັນ ຈັນ")
+    case 3:
+        print("ວັນ ອັງຄານ")
+    case 4:
+        print("ວັນ ພຸດ")
+    case 5:
+        print("ວັນ ພະຫັດ")
+    case 6:
+        print("ວັນ ສຸກ")
+    case 7:
+        print("ວັນ ເສົາ")
+
+    case _:
+        print("ປອ້ນຂໍ້ມູນບໍ່ຖູກຕອ້ງ")
+
+
+
+
+
+
+
